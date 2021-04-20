@@ -1,0 +1,38 @@
+footer {
+    margin: 0;
+    padding: 0;
+    font-family: 'Averia Libre', cursive;
+    background-color: #F9F9F9;
+}
+
+section.footer{
+    display: flex;
+    height: 150px;
+    margin-right: 13%;
+    margin-left: 13%;
+}
+
+section.footer p{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.liensReseaux{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+section.footer img{
+    height: 30px;
+}
+
+div.facebook{
+    width: 37px;
+    text-align: center;
+}
+
+.liensReseaux div{
+    margin-left: 30px;
+}

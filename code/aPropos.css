@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Averia Libre', cursive;
+    background: #E7EEF2;
+}
+
+.flexAPropos {
+    margin-right: 13%;
+    margin-left: 13%;
+    display: flex;
+}
+
+.textAPropos {
+    width: 50%;
+}
+
+.textAPropos div {
+    display: flex;
+    align-items: center;
+    color: #6B7B7E;
+    justify-content: center;
+}
+
+div.smileySalut img {
+    opacity: 45%;
+    height: 15%;
+    transform: rotate(-12deg);
+    position: absolute;
+    margin-right: 15%;
+}
+
+div.smileySalut {
+    color: #7194AA;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+div.hermine {
+    color: #BE9F84;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+div.hermine img {
+    opacity: 45%;
+    width: 6%;
+    transform: rotate(20deg);
+    position: absolute;
+    margin-left: 28%;
+}
+
+div.guillemet {
+    align-items: flex-start;
+    justify-content: start;
+    color: #6B7B7E;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+div.guillemet img {
+    margin-top: 2%;
+    opacity: 45%;
+    width: 30%;
+}
+
+div.guillemet p {
+    line-height: 250%;
+}
+
+div.boutonPlay {
+    color: #6B7B7E;
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: start;
+}
+
+div.boutonPlay img {
+    opacity: 35%;
+    width: 20%;
+    margin-right: 0;
+}
+
+.textMotion {
+    color: #CB96B4;
+    font-size: 32px;
+    margin-left: 1%;
+}
+
+div.CV{
+    justify-content: start;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+div.CV a {
+    color: #CB96B4;
+}
+
+div.photoProfilAPropos {
+    width: 50%;
+}
+
+.groupeimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.photo {
+    position: absolute;
+    width: 18%;
+    margin-bottom: 5%;
+    z-index: 2;
+}
+
+img.motif {
+    width: 100%;
+    z-index: 1;
+}

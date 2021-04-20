@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Averia Libre', cursive;
+}
+
+section.header{
+    text-align: center;
+    background-color: #F9F9F9;
+}
+
+section.header img{
+    margin-top: 10px;
+}
+
+.selectPages{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 25.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.selectPages a{
+    text-decoration:none;
+    color: #7A7A7A;
+    font-size: 14px;
+    font-weight: 400;
+    
+}

@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Averia Libre', cursive;
+    background: #E7EEF2;
+}
+
+.titreContact{
+    margin-top: 3%;
+}
+
+.contactReseaux{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.titreContact span{
+    display: flex;
+    justify-content: center;
+}
+
+.titreContact span p{
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 46px;
+    font-weight: 400;
+}
+
+.titreContact span p.projet{
+    color: #CB96B4;
+}
+
+.titreContact span p.collab{
+    color: #7194AA;
+}
+
+.titreContact span p.discuter{
+    color: #BE9F84;
+}
+
+.contactReseaux{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p, a{
+    color: #6B7B7E;
+    font-size: 20px;
+    margin: 0;
+}
+
+.contactReseaux p.petitTitre{
+    font-size: 28px;
+}
+
+.contactReseaux a{
+    margin-top: 1%;
+}

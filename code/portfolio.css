@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Averia Libre', cursive;
+    background: #E7EEF2;
+}
+
+section.portfolio{
+    margin-right: 13%;
+    margin-left: 13%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.portfolio div a img{
+   
+    height: auto;
+    width: 20%;
+    margin-bottom: 40px;
+}

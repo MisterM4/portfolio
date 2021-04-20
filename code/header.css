@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Averia Libre', cursive;
+}
+
+section.header {
+    text-align: center;
+    background-color: #F9F9F9;
+}
+
+section.header img {
+    margin-top: 10px;
+}
+
+.selectPages p {
+    margin: 0;
+    padding: 10px;
+}
+
+.selectPages p span {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.lienPortfolio a {
+    text-decoration: none;
+    transition-property: letter-spacing;
+    transition-duration: 0.5s;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7A7A7A;
+}
+
+.lienPortfolio a:hover {
+    transition-property: letter-spacing;
+    transition-duration: 0.5s;
+    letter-spacing: 5px;
+    background: linear-gradient(45deg, #6B7B7E, #7194AA, #88B297, #BE9F84, #CB96B4, #C57D7D, #7463AC);
+    background-clip: text;
+    color: transparent;
+    background-size: 200%;
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0px 0px;
+    }
+    100% {
+        background-position: 400px 0px;
+    }
+}
